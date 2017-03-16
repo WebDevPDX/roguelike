@@ -1,0 +1,74 @@
+
+$bossColor: #FF0000;
+$monsterColor: #0000BB;
+$itemColor: #F0FC00;
+$healthColor: #FCA400;
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.grid-row {
+  font-size: 0;
+  line-height: 0;
+}
+
+.cell {
+  height: 20px;
+  width: 20px;
+  border: 1px solid #ccc;
+  display: inline-block;
+  font-size: 0;
+  line-height: 0;
+  box-sizing: border-box;
+}
+
+.info {
+  margin: 20px 0;
+  font-size: 18px;
+}
+
+.obstacle {
+  background-color: #444;
+}
+
+.player {
+  background-color: #00BB00;
+}
+
+.fog {
+  background-color: #000;
+}
+
+.boss {
+  background-color: #FF0000;
+}
+
+.monster {
+  background-color: #0000BB;
+}
+
+.item {
+  background-color: #F0FC00;
+}
+
+.health {
+  background-color: #FCA400;
+}
+
+.legend {
+  float: right;
+  margin-top: 58px;
+  margin-right: 50px;
+}
+
+.legend-line {
+  line-height: 30px;
+}
+
+.legend span {
+  font-size: 18px;
+  margin-right: 15px;
+}
