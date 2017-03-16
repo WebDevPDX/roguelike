@@ -1,0 +1,23 @@
+.hero-panel {
+  width: 200px;
+  height: 100%;
+  border-right: 1px solid #000;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
